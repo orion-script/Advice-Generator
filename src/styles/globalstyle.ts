@@ -9,18 +9,17 @@ export const GlobalStyle = createGlobalStyle<{ theme: Theme }>`
 
   body {
     background-color: ${theme.colors["Dark-Blue"]};
-    padding: 1.25rem;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction:column;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 0.1px);
+    height: 90vh;
     text-align: center;
   }
 
   .attribution {
-    font-size: 11px;
+    font-size: 8px;
     text-align: center;
     color: ${theme.colors["Light-Cyan"]};
   }
